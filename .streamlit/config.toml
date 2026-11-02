@@ -1,0 +1,38 @@
+[server]
+fileWatcherType = "none"   # the watcher trips over torch internals and wastes memory
+maxUploadSize = 2          # MB
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"     # keeps the menu with the theme switcher; hides developer options
+
+[theme]
+baseRadius = "medium"
+paddingTop = "3rem"
+showWidgetBorder = true
+showSidebarBorder = true
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+
+[theme.light]
+primaryColor = "#1f5e4a"
+backgroundColor = "#f6f5f0"
+secondaryBackgroundColor = "#eef0ea"
+textColor = "#1b1f1c"
+linkColor = "#1f5e4a"
+borderColor = "#dde1da"
+
+[theme.light.sidebar]
+backgroundColor = "#ffffff"
+
+[theme.dark]
+primaryColor = "#2f7d63"
+backgroundColor = "#111513"
+secondaryBackgroundColor = "#222925"
+textColor = "#e9ece7"
+linkColor = "#9bd5bb"
+borderColor = "#2e3631"
+
+[theme.dark.sidebar]
+backgroundColor = "#1a1f1c"

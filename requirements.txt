@@ -1,0 +1,11 @@
+# Python 3.12. Direct CPU wheel: the default PyPI torch pulls in several GB of CUDA libraries.
+torch @ https://download.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl
+streamlit==1.66.1
+transformers==5.21.1
+safetensors==0.8.0
+scikit-learn==1.9.1
+xgboost==3.4.1
+lightgbm==4.7.0
+numpy==2.4.6
+pandas==3.1.0
+joblib==1.6.0
